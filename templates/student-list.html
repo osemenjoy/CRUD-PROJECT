@@ -29,7 +29,7 @@
             <td>{{ student.course }}</td>
             <div>
                 <td><a href="{% url 'student-update' student.id %}">Edit</a></td>
-                <td><a href="">Delete</a></td>
+                <td><a href="{% url 'student-delete' student.id %}">Delete</a></td>
             </div>
         </tr>
         {% endfor %}
