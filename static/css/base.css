@@ -44,15 +44,19 @@
 }
 
 .btn-edit {
-    background-color: #4CAF50;
+    background-color: burlywood;
     color: #fff;
 }
 
 .btn-delete {
-    background-color: #FF69B4;
+    background-color: red;
     color: #fff;
 }
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.button-container {
+    margin-top: 20px;
 }
