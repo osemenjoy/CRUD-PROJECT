@@ -1,0 +1,58 @@
+/* Style the table */
+#student-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table headers */
+#student-table thead th {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid #ddd; /* added a border to separate columns in the header */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table rows */
+#student-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the table cells */
+#student-table td {
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid #ddd;
+}
+
+/* Style the actions column */
+#student-table td:last-child {
+    text-align: center;
+    border-right: none;
+}
+
+/* Style the links as buttons */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: #FF69B4;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
