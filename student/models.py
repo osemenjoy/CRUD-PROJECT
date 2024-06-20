@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 class Student(models.Model):
     first = models.CharField(max_length=200, blank=True, null=True)
@@ -12,3 +13,6 @@ class Student(models.Model):
 
     def __str__(self):
         return self.first
+
+    def get_absolute_url(self):
+        return reverse("student-list")

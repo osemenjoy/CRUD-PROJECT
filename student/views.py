@@ -12,3 +12,4 @@ class StudentListView(ListView):
 class StudentUpdateView(UpdateView):
     model = Student
     template_name = "student-update.html"
+    fields = ["first", "last", "email", "phone", "location", "hobby", "course"]

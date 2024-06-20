@@ -28,7 +28,7 @@
             <td>{{ student.hobby }}</td>
             <td>{{ student.course }}</td>
             <div>
-                <td><a href="">Edit</a></td>
+                <td><a href="{% url 'student-update' student.id %}">Edit</a></td>
                 <td><a href="">Delete</a></td>
             </div>
         </tr>
